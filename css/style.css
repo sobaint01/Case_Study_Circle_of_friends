@@ -23,14 +23,14 @@ a {
     z-index: 15;
 }
     
-    nav h1 { color: #D9B344 !important; 
-    font-family: Arial, Helvetica, sans-serif !important;
+nav h1 { color: #D9B344 !important; 
     margin: 10px !important;
     cursor: pointer !important;
-    height: 70px !important;
+    height: 90px !important;
     display: flex !important;
     align-items: center !important;
-    font-family: 'Merriweather Sans', sans-serif !important;
+    font-family: 'Merriweather', serif!important;
+    font-weight: 600;
     }
 
 h1 {
@@ -573,7 +573,7 @@ body { background-color: #262626 !important;
     font-family: 'Public Sans', sans-serif;
 color: #F2F2F2 !important; }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1000px) {
 
    /**h1 { 
        color: red;
