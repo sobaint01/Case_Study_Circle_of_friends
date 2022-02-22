@@ -437,6 +437,7 @@ p {
     margin-top: 30px;
 }
 
+
 #leftTextarea {
     margin-left: 12.5% !important;
     margin-right: 37.5% !important;  
@@ -575,95 +576,33 @@ color: #F2F2F2 !important; }
 
 @media only screen and (max-width: 1000px) {
 
-   /**h1 { 
-       color: red;
-   } **/
+   
+   
 
-   /**.myCaseStudies { 
-       display: flex; 
-       flex-direction: column;
-   } **/
-   #caseSkills { 
-       display: flex; 
-       flex-direction: column;
-   } 
-
-   .skillssummary { 
-       height: 100%;
-       margin-bottom: 35px;
-   }
-
-   #caseDol { 
-    display: flex; 
-    flex-direction: column;
-} 
-
-#caseDol { 
-    height: 100%;
-    margin-bottom: 35px;
-}
-
-#caseCof { 
-    display: flex; 
-    flex-direction: column;
-} 
-
-#caseCof { 
-    height: 100%;
-    margin-bottom: 35px;
-
-}
-
-.myUiSkills {
-    display: flex;
-    flex-direction: column;
-}
-
-.myUiSkills h3 {
-
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.myUxSkills {
-    display: flex;
-    flex-direction: column;
-}
-
-.myUxSkills h3 {
-
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.sectionContents { display: grid;
-    margin: 20px;
-grid-template-columns: 1fr;
-grid-template-rows: 50% 50%;
-grid-template-areas: 
-"aboutPictures" 
-"aboutProfile";
-/*background-color: #262626;*/
-
- }
-
- #aboutPictures { 
-border-top-right-radius: 30px;
-border-top-left-radius: 30px;
-border-bottom-left-radius: 0px;
-box-sizing: border-box;
-box-shadow: 4px 4px 8px #000000;
-color: #000000;
-}
-
-#aboutProfile { 
-    box-sizing: border-box;
-    box-shadow: 4px 4px 8px #000000;
-    color: #000000;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-top-right-radius: 0px;
+    .contents-3p {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin: 20px;
+        margin-top: 30px;
+        margin-left: 50px;
     }
+    .contents-2p {
+        display: flex;
+        flex-direction: column;
+        justify-content:center!important;
+        align-items: flex-start;
+        margin: 20px;
+        margin-top: 30px;
+        margin-left: 12.5%;
+    }
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    
 
 .profilePicture { grid-area: profilePicture;
         height: 100%;
