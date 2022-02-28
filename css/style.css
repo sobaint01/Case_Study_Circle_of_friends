@@ -39,6 +39,8 @@ h1 {
     width: 100%;
 
 }
+
+
     .homePagelogo {
         display: flex;
         justify-content: space-evenly;
@@ -471,6 +473,36 @@ p {
     color: #000000 !important;
     border: #FFC91B !important;
 }
+
+
+
+
+.buttonContainer { display: flex; 
+    outline: 2px solid #D9B344;
+    height: 45px;
+    width: 350px;
+    padding: 15px;
+    margin-left: 30%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    background-color: #262626;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+    
+    .buttonContainer:hover { background-color: #D9B344;
+        color: black;
+    
+    }
+    
+    .Project { color: white; }
+    
+    .Project:hover {
+        color: black;
+    }
 
 /*footer*/
 
